@@ -7,13 +7,26 @@ export const styles = StyleSheet.create({
         alignSelf: 'center'
     },
     input: {
-        height: 50,
+        height: 40,
         width: 200,
         marginTop: 30,
         padding: 4,
         fontSize: 18,
         borderWidth: 1,
-        borderColor: 'green'
+        borderColor: 'green',
+        marginLeft: 60,
+        borderRadius:10
+
+    },
+    button: {
+        backgroundColor: "#007ad0",
+        width: 200,
+        marginLeft: 45,
+        marginTop: 30,
+        height: 45,
+        borderColor: "transparent",
+        borderWidth: 0,
+        borderRadius: 5
     },
     container: {
         flex: 1,
